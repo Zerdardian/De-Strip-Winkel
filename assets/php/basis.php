@@ -65,4 +65,7 @@
 
 // User data
 
-// To be crafted.
+    if(!empty($_SESSION['user'])) {
+        $userid = $_SESSION['userid'];
+        $email = $_SESSION['email'];
+    }
