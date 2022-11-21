@@ -66,6 +66,6 @@
 // User data
 
     if(!empty($_SESSION['user'])) {
-        $userid = $_SESSION['userid'];
-        $email = $_SESSION['email'];
+        $userid = $_SESSION['user']['userid'];
+        $email = $_SESSION['user']['email'];
     }
