@@ -65,7 +65,9 @@
 
 // User data
 
+    $loggedin = false;
     if(!empty($_SESSION['user'])) {
+        $loggedin = true;
         $userid = $_SESSION['user']['userid'];
         $email = $_SESSION['user']['email'];
     }
