@@ -1,7 +1,7 @@
 <div class="login" id="login">
     <div class="pagetitle"></div>
     <div class="formlogin" id="formlogin">
-        <form action="/login/" method="post">\
+        <form action="/login/" method="post">
             <?php
                 if(!empty($error)) {
                     ?>
