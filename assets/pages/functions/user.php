@@ -1,5 +1,11 @@
 <?php
     if($loggedin) {
+        // Current Url's
+
+        // /user/profile/       | Main of the Profile | Part finished. | 
+        // /user/strips/        | Look at all comics | Not finished yet |
+        // /user/userinfo/      | Look at your userinfo and change your password.
+
         $user = $db->query("SELECT * FROM `userinfo` WHERE `userid`='$userid' LIMIT 1")->fetch();
 
         if($user['usertype'] == 1) {
