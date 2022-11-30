@@ -14,6 +14,7 @@
     // Page general or function
     if (isset($_GET['one']) && $_GET['one'] != '.php') {
         $item = str_replace('.php', '', $_GET['one']);
+        $pageinfo = str_replace('.php', '', $_GET['one']);
 
         $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]/" . $item . '/';
         $fullurl = '/' . $item . '/';
