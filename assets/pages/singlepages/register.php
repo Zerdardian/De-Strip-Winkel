@@ -1,4 +1,9 @@
 <div class="register" id="register">
+    <?php
+        if(!empty($error)) {
+            print_r($error);
+        }
+    ?>
     <div class="formregister" id="formregister">
         <form action="/register/" method="post">
             <div class="registerfname">
@@ -14,11 +19,11 @@
                 <input type="email" name="emailregister" id="emailregister" placeholder="Voer een email in...">
             </div>
             <div class="registerpass">
-                <label for="passregister">Naam</label>
+                <label for="passregister">Wachtwoord</label>
                 <input type="password" name="passregister" id="passregister" placeholder="Voer een wachtwoord in...">
             </div>
             <div class="registerrepass">
-                <label for="repassregister">Naam</label>
+                <label for="repassregister">Voer je wachtwoord opnieuw in!</label>
                 <input type="password" name="repassregister" id="repassregister" placeholder="Voer opnieuw je wachtwoord in...">
             </div>
             <div class="registersubmit">
