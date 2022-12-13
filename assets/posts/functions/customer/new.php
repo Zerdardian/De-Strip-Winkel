@@ -9,9 +9,23 @@
             $uploadfile = $target_dir.$filename;
     
             if(move_uploaded_file($_FILES['caft']['tmp_name'], $uploadfile)) {
-                $insert = $db->prepare("INSERT INTO comic (`sellerid`, `comicname`, `comicdesc`, `comicpicture`) VALUES ($sellerid, :name, :description, :picture)");
+                $decimal = intval($_POST['decimal']);
+                $full = intval($_POST['fullnumber']);
+
+                if($decimal < 1) {
+                    $decimal = 00;
+                }
+
+                if($decimal > 99) {
+                    $decimal = 99;
+                }
+
+                $price = "$full.$decimal";
+
+                $insert = $db->prepare("INSERT INTO comic (`sellerid`, `comicname`, `comicdesc`, `price`, `comicpicture`) VALUES ($sellerid, :name, :description, :price, :picture)");
                 $insert->bindparam(':name', $_POST['name']);
                 $insert->bindparam(':description', $_POST['description']);
+                $insert->bindparam(':price', $price);
                 $insert->bindparam(':picture', $filename);
 
                 $insert->execute();
