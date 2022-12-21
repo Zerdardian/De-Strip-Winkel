@@ -11,6 +11,7 @@
                     <?php
                 }
             ?>
+            <h2 class="blocktitle">Welkom terug</h2>
             <div class="emaillogin">
                 <label for="loginemail">E-mail</label>
                 <input type="email" name="loginemail" id="loginemail" placeholder="Voer een email in...">
@@ -22,11 +23,17 @@
             <div class="submitlogin">
                 <input type="submit" name="loginsubmit" id="loginsubmit" value="Inloggen">
             </div>
+            <a href="/register">
+                <div class="linkregister">
+                    Nog geen account? Registreer je dan hier!
+                </div>
+            </a>
+            <a href="">
+                <div class="resetpass">
+                    Wachtwoord vergeten?
+                </div>
+            </a>
         </form>
     </div>
-    <a href="/register">
-        <div class="linkregister">
-            Nog geen account? Registreer je dan hier!
-        </div>
-    </a>
+    <div class="pagetitle"></div>
 </div>
