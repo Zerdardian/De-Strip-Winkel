@@ -14,6 +14,7 @@
             <div class="form">
                 <form action="/admin/users/edit/<?=$user['userid']?>/" method="post">
                     <input type="hidden" name="userid" value=<?=$user['userid']?>>
+                    <input type="hidden" name="type" value="edit">
                     <label for="email">Email<?php
                         if($user['userid'] == $userid) {
                             ?> | You cannot edit your email here!<?php
