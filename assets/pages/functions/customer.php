@@ -13,6 +13,11 @@
         $user = $db->query("SELECT * FROM `userinfo` WHERE `userid`='$userid' LIMIT 1")->fetch();
 
         if($user['usertype'] == 2) {
+            $seller = $db->query("SELECT sellerid FROM `seller` WHERE `userid`='$userid'")->fetch();
+            if(empty($seller)) {
+                $insert = $db->prepare("INSERT INTO `seller` (userid) VALUES ($userid)")->execute();
+            }
+
             if(empty($pageitem)) {
                 header('location: /customer/home/');
             }
