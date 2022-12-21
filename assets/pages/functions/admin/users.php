@@ -13,6 +13,12 @@ switch ($subitem) {
     case 'edit':
         include_once "./assets/pages/functions/admin/user/edit.php";
         break;
+    case 'disable':
+        echo 'Disable a user. not yet tho.';
+        break;
+    case 'delete':
+        echo 'Delete a user, not yet tho';
+        break;
     default:
         $users = $db->query("SELECT user.userid, user.email, user.created, user.lastlogin, userinfo.usertype, userinfo.firstname, userinfo.lastname FROM user, userinfo WHERE user.userid = userinfo.userid")->fetchAll();
         ?>

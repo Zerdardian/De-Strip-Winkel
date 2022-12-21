@@ -9,14 +9,9 @@
             Users
         </div>
     </a>
-    <a href="/customer/comics/">
+    <a href="/admin/comics/">
         <div class="menuitem all">
             Comics
-        </div>
-    </a>
-    <a href="/customer/userinfo/">
-        <div class="menuitem userinfo">
-            Userinfo
         </div>
     </a>
 </div>
