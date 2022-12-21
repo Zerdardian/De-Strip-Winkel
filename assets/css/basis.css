@@ -3,4 +3,28 @@ html, body {
   height: 100vh;
   margin: 0;
   padding: 0;
+  @import url("https://fonts.google.com/specimen/Rubik");
 }
+html *, body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+html .menu, body .menu {
+  width: 2000px;
+  height: 150px;
+  background-color: #D0391C;
+}
+html ul, body ul {
+  /* position: absolute; */
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  float: right;
+}
+html li, body li {
+  padding-right: 70px;
+}/*# sourceMappingURL=basis.css.map */

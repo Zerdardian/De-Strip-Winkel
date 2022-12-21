@@ -1,0 +1,28 @@
+@import url('https://fonts.google.com/specimen/Rubik');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
+
+.menu {
+    width: 2000px;
+    height: 150px;
+    background-color: #D0391C;
+  }
+  
+  ul {
+    /* position: absolute; */
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    float: right;
+    
+  }
+  
+  li {
+    padding-right: 70px;
+  } 
