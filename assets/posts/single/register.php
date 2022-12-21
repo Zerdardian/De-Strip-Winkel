@@ -51,6 +51,4 @@
     } else {
         $error = returnError('IVLDDTA');
     }
-
-    print_r($_POST);
 ?>
