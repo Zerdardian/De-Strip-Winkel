@@ -1,8 +1,10 @@
 html, body {
   width: 100vw;
   height: 100vh;
+  background-color: #e2ded2;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   @import url("https://fonts.google.com/specimen/Rubik");
 }
 html *, body * {
@@ -27,4 +29,63 @@ html ul, body ul {
 }
 html li, body li {
   padding-right: 70px;
+=======
+  font-family: "Inter", sans-serif;
+}
+html .formlogin, body .formlogin {
+  display: flex;
+  justify-content: center;
+  font-size: 9;
+}
+html form, body form {
+  width: 30%;
+  height: 400px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+html #login, body #login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+html .pagetitle, body .pagetitle {
+  background-color: #D0391C;
+  width: 100%;
+  height: 80px;
+}
+html form input, body form input {
+  padding: 5px;
+}
+html form input[type=submit], body form input[type=submit] {
+  width: 40%;
+  background-color: white;
+  border: none;
+  padding: 8px;
+  font-family: "Inter", sans-serif;
+}
+html form a, body form a {
+  color: white;
+}
+html .formregister, body .formregister {
+  display: flex;
+  justify-content: center;
+  font-size: 9;
+}
+html #register, body #register {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+html #myLibrary, body #myLibrary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+>>>>>>> 0e84e50b7223f6f8ecab21b9101d7ceaf9f630db
 }/*# sourceMappingURL=basis.css.map */

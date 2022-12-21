@@ -1,9 +1,18 @@
 html, body {
     width: 100vw;
     height: 100vh;
+    background-color: #e2ded2;
 
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
 
     @import "home";
+=======
+    font-family: 'Inter', sans-serif;
+
+    @import "login";
+    @import "register";
+    @import "library";
+>>>>>>> 0e84e50b7223f6f8ecab21b9101d7ceaf9f630db
 }
