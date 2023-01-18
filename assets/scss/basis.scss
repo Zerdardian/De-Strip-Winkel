@@ -2,6 +2,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     background-color: #e2ded2;
+    overflow-x: hidden;
 
     margin: 0;
     padding: 0;
@@ -9,5 +10,5 @@ html, body {
 
     @import "login";
     @import "register";
-    @import "library";
+    @import "user";
 }

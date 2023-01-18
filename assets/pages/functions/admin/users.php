@@ -22,7 +22,9 @@ switch ($subitem) {
     default:
         $users = $db->query("SELECT user.userid, user.email, user.created, user.lastlogin, userinfo.usertype, userinfo.firstname, userinfo.lastname FROM user, userinfo WHERE user.userid = userinfo.userid")->fetchAll();
         ?>
+
         <div class="users">
+    <div class="pagetitle" id="pagetitleheader"></div>
             <?php
             foreach ($users as $user) {
             ?>
@@ -59,6 +61,8 @@ switch ($subitem) {
             <?php
             }
             ?>
+    <footer class="pagetitle" id="pagetitlefooter"></footer>
+
         </div>
         <?php
         break;

@@ -3,5 +3,5 @@
         unset($_SESSION['user']);
     }
 
-    header('location: /')
+    header('location: /login.php')
 ?>

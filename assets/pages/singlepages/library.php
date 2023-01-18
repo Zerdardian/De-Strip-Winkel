@@ -1,5 +1,4 @@
 <div class="myLibrary" id="myLibrary">
-    <div class="pagetitle"></div>
         <table>
             <thead>
                 <tr>
@@ -13,5 +12,4 @@
                 </tr>
             </tbody>
         </table>
-    <div class="pagetitle"></div>
 </div>
