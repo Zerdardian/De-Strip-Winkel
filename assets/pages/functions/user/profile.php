@@ -54,4 +54,5 @@
             </div>
         </div>
     </div>
+    <div class="pagetitle"></div>
 </div>
