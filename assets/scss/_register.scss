@@ -10,3 +10,16 @@
         justify-content: space-between;
         height: 100vh;
     }
+
+    .formregister form{        
+        width: 30%;
+        height: 400px;
+
+        background-color: grey;
+        color: white;
+
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }

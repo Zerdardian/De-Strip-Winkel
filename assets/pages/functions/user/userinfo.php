@@ -1,4 +1,5 @@
-<div class="user userinfo" id="userinfo">
+<div class="pagetitle"></div>
+<div class="userinfo" id="userinfo">
     <?php
     if(!empty($succes)) {
         ?>
@@ -37,3 +38,4 @@
         </form>
     </div>
 </div>
+<div class="pagetitle" id="pagetitlefooter"></div>

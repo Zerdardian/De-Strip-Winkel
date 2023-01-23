@@ -5,7 +5,7 @@
         font-size: 9;
     }
 
-    form{        
+    .formlogin form{        
         width: 30%;
         height: 400px;
 
@@ -26,11 +26,11 @@
     }
 
 
-    form input{
+    .formlogin form input{
         padding: 5px;
     }
 
-    form input[type=submit]{
+    .formlogin form input[type=submit]{
         width:40%;
         background-color: white;
         border: none;

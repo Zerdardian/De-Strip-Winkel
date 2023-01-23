@@ -12,7 +12,7 @@ html .formlogin, body .formlogin {
   justify-content: center;
   font-size: 9;
 }
-html form, body form {
+html .formlogin form, body .formlogin form {
   width: 30%;
   height: 400px;
   background-color: grey;
@@ -28,10 +28,10 @@ html #login, body #login {
   justify-content: space-between;
   height: 100vh;
 }
-html form input, body form input {
+html .formlogin form input, body .formlogin form input {
   padding: 5px;
 }
-html form input[type=submit], body form input[type=submit] {
+html .formlogin form input[type=submit], body .formlogin form input[type=submit] {
   width: 40%;
   background-color: white;
   border: none;
@@ -52,6 +52,37 @@ html #register, body #register {
   justify-content: space-between;
   height: 100vh;
 }
+html .formregister form, body .formregister form {
+  width: 30%;
+  height: 400px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+html .change form, body .change form {
+  display: flex;
+  flex-direction: column;
+}
+html .change input, body .change input {
+  margin: 5px;
+  padding: 5px;
+  border: none;
+}
+html .userinfo form input[type=submit], body .userinfo form input[type=submit] {
+  background-color: white;
+  border: none;
+  padding: 8px;
+  font-family: "Inter", sans-serif;
+}
+html #userinfo, body #userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
 html .pagetitle, body .pagetitle {
   background-color: #D0391C;
   width: 100%;
@@ -66,7 +97,7 @@ html #pagetitlefooter, body #pagetitlefooter {
   bottom: 0;
   width: 100%;
 }
-html a, body a {
+html .buttons a, body .buttons a {
   text-decoration: none;
 }
 html button, body button {
