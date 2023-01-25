@@ -1,3 +1,4 @@
+<div class="pagetitle"></div>
 <div class="user profile" id="userprofile">
     <div class="head page">
         <div class="head">
@@ -54,5 +55,5 @@
             </div>
         </div>
     </div>
-    <div class="pagetitle"></div>
 </div>
+<div class="pagetitle"></div>
