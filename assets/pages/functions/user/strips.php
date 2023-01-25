@@ -22,7 +22,9 @@
                             Created by: <?=$strip['name']?>
                         </div>
                     </div>
-                    <button class="download">Download <?=$strip['name']?></button>
+                    <?php
+                    // <button class="download">Download $strip['name']</button>
+                    ?>
                 </div>
                 <?php
             }
